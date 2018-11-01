@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Api Preview</title>
+
+    <link rel="stylesheet" href="css/style.css"> <!--CSS Link-->
+
+</head>
+
+<body>
+    <!--Search form.-->
+    <form action="#"> Api Search:
+        <input type="text" id="api_search">
+        <input type="submit" onclick=writeResults();>
+    </form>
+
+    
+    <!--Where the search results will be printed.-->
+    <p id="results_text"></p>
+
+    <!--Preview buttons.-->
+    <h3>Examples:</h3>
+    <div id="button_container">
+            <ul>
+                    <button>Youtube</button>
+                    <button>Google Maps</button>
+                    <button>New York Times</button>
+                </ul>
+            </div>
+
+<!--Preview container.-->
+<div id="preview_container">
+
+</div>
+
+</body>
+
+<script src="javascript/app.js"></script>
+</html>
